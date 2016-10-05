@@ -1,2 +1,33 @@
 # EjerciciosAprendeJava
 Soluciones de los ejercicios de Java de la asignatura programación
+
+## Capítulo 1
+### Ejercicio 1
+
+Escribe un programa en el que se declaren las variables enteras x e y . Asignales
+los valores 144 y 999 respectivamente. A continuación, muestra por pantalla
+el valor de cada variable, la suma, la resta, la división y la multiplicación.
+
+### Ejercicio 2
+Crea la variable nombre y asígnale tu nombre completo. Muestra su valor por
+pantalla de tal forma que el resultado del programa sea el mismo que en el
+ejercicio 1 del capítulo 1.
+
+### Ejercicio 3
+
+Crea las variables nombre, direccion y telefono y asígnale los valores corres-
+pondientes. Muestra los valores de esas variables por pantalla de tal forma
+que el resultado del programa sea el mismo que en el ejercicio 2.
+
+### Ejercicio 4
+Realiza un conversor de euros a pesetas. La cantidad en euros que se quiere
+convertir deberá estar almacenada en una variable.
+
+### Ejercicio 5
+Realiza un conversor de pesetas a euros. La cantidad en pesetas que se quiere
+convertir deberá estar almacenada en una variable.
+
+### Ejercicio 6
+Escribe un programa que calcule el total de una factura a partir de la base
+imponible (precio sin IVA). La base imponible estará almacenada en una
+variable.
