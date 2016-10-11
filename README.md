@@ -136,3 +136,6 @@ Introduce la nota del primer examen: 8
 
 Para tener un 7 en el trimestre necesitas sacar un 6.33 en el segundo examen.
 
+## Enlaces de interés
+
+[Aprende Java con ejercicios](https://leanpub.com/aprendejava)
