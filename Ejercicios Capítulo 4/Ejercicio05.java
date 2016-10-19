@@ -17,8 +17,10 @@ public class Ejercicio05 {
     int b = Integer.parseInt(System.console().readLine());
     
     double x = (double)-b / (double)a;
-
-    if (a == 0) {
+    
+    if (a == 0 && b == 0) {
+      System.out.print("La ecuación tiene infinitas soluciones (es una identidad)");
+    } else if (a == 0) {
       System.out.print("La ecuación no tiene solución real");
     } else {
       System.out.print("Valor de la x: " + x);

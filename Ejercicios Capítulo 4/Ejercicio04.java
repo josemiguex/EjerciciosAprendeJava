@@ -20,7 +20,7 @@ public class Ejercicio04 {
       System.out.print("Has introducido un numero negativo");
     } else if (horasTrabajadas < 41) {
         System.out.print("Salario semanal: " + (horasTrabajadas * 12));
-      } else if (horasTrabajadas >= 41) {
+      } else if (horasTabajadas >= 41) {
          System.out.print("Salario semanal: " + (480 + ((horasTrabajadas - 40) * 16)) + "€");
        }
      }
