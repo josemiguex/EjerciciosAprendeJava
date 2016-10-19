@@ -12,11 +12,14 @@ public class Ejercicio14 {
     System.out.print("Escribe un número: ");
     int numero = Integer.parseInt(System.console().readLine());
     int resto = numero%2;
+    int resto2 = numero%5;
     
     if (resto == 0) {
-      System.out.print("El número introducido es par");
-    } else {
-      System.out.print("El número introducido es impar");
+      System.out.print("El número introducido es par y no divisible entre 5");
+    } else if (resto2 == 0) {
+       System.out.print("El número introducido es impar y divisible entre 5");
+      } else {
+      System.out.print("El número introducido es impar y no divisible entre 5");
     }
   }
 }

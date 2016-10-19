@@ -21,16 +21,19 @@ public class Ejercicio09 {
     System.out.print("Dime el valor de c: ");
     double c = Double.parseDouble(System.console().readLine());
     
-    if (a == 0 && b == 0 && c == 0) {
-      System.out.print("La ecuación no tiene solución");
+    if (a == 0 && b != 0 && c != 0) {
+      System.out.println("Se trata de una ecuación de primer grado");
+      System.out.println("x1 = x2 = " + (-c/b));
+    } else if (a == 0 && b == 0 && c == 0) {
+      System.out.print("La ecuación tiene infinitas soluciones");
     } else if (c == 0) {
       x = -b/a;
       System.out.print("Soluciones de la ecuación: 0 y " + x);
     } else if ((b*b - 4*a*c) < 0) {
       System.out.print("La ecuación no tiene solución (La raíz es negativa)");
   }  else {
-      x = (-b + Math.sqrt(b*b - 4*a*c)) / 2*a;
-      x1 = (-b - Math.sqrt(b*b - 4*a*c)) / 2*a;
+      x = (-b + Math.sqrt(b * b - (4 * a * c))) / (2 * a);
+      x1 = (-b - Math.sqrt(b * b - (4 * a * c))) / (2 * a);
       System.out.print("Soluciones de las ecuaciones: " + x + " " + x1);
     }
   }
