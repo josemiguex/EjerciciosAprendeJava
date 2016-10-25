@@ -10,13 +10,10 @@ public class Ejercicio17 {
     System.out.println("------------------------------------------------");
     System.out.print("Escribe un número: ");
     int numero = Integer.parseInt(System.console().readLine());
+  
+    int resto = numero % 10;
+    System.out.print("Última cifra del número: " + Math.abs(resto));
     
-    if (numero < 10 && numero >= 0) {
-      System.out.print("El número introducido sólo tiene una cifra");
-    } else {
-      int resto = numero % 10;
-      System.out.print("Última cifra del número: " + resto);
-    }
     
   }
 }
