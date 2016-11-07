@@ -33,6 +33,7 @@ public class Ejercicio26 {
     
     int digito = 0;
     int contadorPosicion = 1;
+    
   while (numeroAlReves > 0) {
     digito = numeroAlReves % 10;
     
