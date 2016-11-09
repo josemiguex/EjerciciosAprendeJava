@@ -13,7 +13,7 @@ public class Ejercicio32 {
     System.out.println("----------------------------------------------------------------------");
     
     System.out.print("Introduce un número: ");
-    long numero = Integer.parseInt(System.console().readLine());
+    long numero = Long.parseLong(System.console().readLine());
     
     long numeroAlReves = 0;
     
@@ -35,9 +35,9 @@ public class Ejercicio32 {
     digitoPar = numeroAlReves % 10;
         
     if ((digitoPar % 2) == 0) {
-    System.out.print(digitoPar + " ");
-    sumaDigitosPares += digitoPar;
-  }
+     System.out.print(digitoPar + " ");
+     sumaDigitosPares += digitoPar;
+    }
     numeroAlReves = numeroAlReves / 10;    
     }
     

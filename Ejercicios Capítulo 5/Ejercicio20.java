@@ -5,7 +5,7 @@
 
 public class Ejercicio20 {
   public static void main (String[] args) {
-    System.out.println("Este programa pintará una pirámide dependiendo de los datos que introduzca");
+    System.out.println("Este programa pintará una pirámide huecadependiendo de los datos que introduzca");
     System.out.println("--------------------------------------------------------------------------");
     
     System.out.print("Introduzca la altura de la pirámide: ");
