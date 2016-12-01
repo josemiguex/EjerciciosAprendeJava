@@ -34,11 +34,12 @@ public class Ejercicio02 {
     System.out.print("│ Valor  ");
     
     for (int i = 0; i < 10; i++) {
-      System.out.printf("│%5c", caracter[i]);
+      System.out.printf("│%5c", caracter[i]==0?' ':caracter[i]);
     }
     
     System.out.println("│");
     System.out.println("└────────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┘");
-    
+    System.out.print("Si no inicializas el valor en el array se le asignará un caracter vacio");
+
   }
 }
