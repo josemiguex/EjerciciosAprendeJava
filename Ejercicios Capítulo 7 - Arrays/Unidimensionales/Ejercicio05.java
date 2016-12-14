@@ -13,8 +13,8 @@ public class Ejercicio05 {
     
     int[] num = new int[10];
     
-    int min = 999999999;
-    int max = 0;
+    int min = Integer.MAX_VALUE;
+    int max = Integer.MIN_VALUE;
     
     for (int i = 0; i < 10; i++) {
      num[i] = Integer.parseInt(System.console().readLine());

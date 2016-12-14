@@ -7,8 +7,8 @@
  */
 
 public class Ejercicio01 {
-  public static void main (String[] args) {
-    
+  public static void main (String[] args)
+    throws InterruptedException {
     int[] num = new int[12];
     
     num[0] = 39;
@@ -25,6 +25,7 @@ public class Ejercicio01 {
     
     for (int contador = 0; contador < 12; contador++) {
       System.out.printf("│%5d", contador);
+      Thread.sleep(100);
     }
     System.out.println("│");
     System.out.println("├────────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┤");
@@ -33,6 +34,7 @@ public class Ejercicio01 {
 
     for (int i = 0; i < 12; i++) {
       System.out.printf("│%5d", num[i]);
+      Thread.sleep(100);
     }
     System.out.println("│");
     System.out.println("└────────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┘");
