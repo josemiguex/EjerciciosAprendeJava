@@ -12,7 +12,7 @@ public class Ejercicio06 {
     //Creamos un array unidimensional que no repita los números
     
     int[] numero = new int[60]; //Array que se generará de forma aleatoria
-    int aux = 0;   //Variable uxiliar
+    int aux = 0;   //Variable auxiliar
     int nuevo = 0; //Cuenta los números que no han aparecido
     int contA = 0; //Contador del bucle While
     
