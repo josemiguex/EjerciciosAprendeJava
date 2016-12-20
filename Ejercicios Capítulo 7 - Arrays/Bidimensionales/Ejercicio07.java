@@ -15,9 +15,6 @@ public class Ejercicio07 {
   
   public static void main(String[] args) {
     
-    int auxX = 0;
-    int auxY = 0;
-    
     int x;
     int y;
     int[][] cuadrante = new int[5][4];
@@ -32,7 +29,6 @@ public class Ejercicio07 {
     int minaX = (int)(Math.random()*4);
     int minaY = (int)(Math.random()*3);
     cuadrante[minaX][minaY] = MINA;
-    System.out.println("minaX: " + minaX + "minaY: " + minaY);
     
     // coloca el tesoro
     int tesoroX;
@@ -54,8 +50,6 @@ public class Ejercicio07 {
         for(x = 0; x < 5; x++) {
           if (cuadrante[x][y] == INTENTO) {
             System.out.print("X ");
-            auxX = x;
-            auxY = y;
           } else {
             System.out.print("  ");
           }
@@ -77,6 +71,9 @@ public class Ejercicio07 {
       switch(cuadrante[x][y]) {
         case VACIO:
           cuadrante[x][y] = INTENTO;
+          if ((Math.abs(x - minaX) < 2) && (Math.abs(y - minaY) < 2)) {
+			  System.out.println("¡Cuidado! ¡Hay una mina cerca!");
+		  }
           break;
         case MINA:
           System.out.println("Lo siento, has perdido.");
@@ -89,15 +86,7 @@ public class Ejercicio07 {
         default:
       }
       
-      if (minaX == (x - 1) && !salir) {
-		  System.out.println("¡Cuidado! ¡Hay una mina cerca!");
-	  } else if (minaX == (x + 1) && !salir) {
-		  System.out.println("¡Cuidado! ¡Hay una mina cerca!");
-	  } else if (minaY == (y + 1) && !salir) {
-		  System.out.println("¡Cuidado! ¡Hay una mina cerca!");
-      } else if (minaY == (y - 1) && !salir) {
-		  System.out.println("¡Cuidado! ¡Hay una mina cerca!");
-	  }
+      
       
       
 	  

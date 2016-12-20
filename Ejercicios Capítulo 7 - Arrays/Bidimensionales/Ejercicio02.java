@@ -59,6 +59,7 @@ public class Ejercicio02 {
       System.out.printf("│ %-7d", sumaColumnas);
       sumaColumnas = 0;
     }
+    
     System.out.printf("│ %-7d", sumaTotal);
     System.out.print("│");
 
