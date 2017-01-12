@@ -1,5 +1,9 @@
 /* Devuelve verdadero si el número que se pasa como pará-
  * metro es capicúa y falso en caso contrario.
+ * 
+ * @param x número del que se quiere saber si es capicúa
+ * @return  verdadero si el número que se pasa como parámetro es capicúa y
+ *          falso en caso contrario
  */
 
 package funcionesMatematicas;
