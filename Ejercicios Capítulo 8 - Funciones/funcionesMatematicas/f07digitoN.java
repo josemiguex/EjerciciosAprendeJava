@@ -11,7 +11,7 @@ package funcionesMatematicas;
 
 public class f07digitoN {
   
-  public static int digitoN(int x, int d, int c) {
+  public static long digitoN(long x, int d, int c) {
     
     // Primero volteamos el número
     
@@ -19,13 +19,13 @@ public class f07digitoN {
       x = -digitoN(-x, 0, 0);
     }
     
-    int numAlreves = 0;
+    long numAlreves = 0;
     
-    int aux = x;
+    long aux = x;
     do {
       numAlreves *= 10;
       
-      int resto = aux % 10;
+      int resto = (int)(aux % 10);
       
       numAlreves += resto;
       
@@ -38,7 +38,7 @@ public class f07digitoN {
     int contador = 0;
     do {
       
-      c = numAlreves % 10;
+      c = (int)(numAlreves % 10);
       numAlreves /= 10;
       
       contador++; 

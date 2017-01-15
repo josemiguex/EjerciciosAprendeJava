@@ -6,7 +6,7 @@ package funcionesMatematicas;
 
 public class f11pegaPorDetras {
   
-  public static int pegaPorDetras(int x, int d) {
+  public static long pegaPorDetras(long x, long d) {
     
     x *= 10;
     

@@ -7,20 +7,20 @@ package funcionesMatematicas;
 
 public class f06voltea {
   
-  public static int voltea(int x) {
+  public static long voltea(long x) {
     
     if (x < 0) {
       return -voltea(-x);
     }
     
-    int numAlreves = 0;
+    long numAlreves = 0;
     
-    int aux = x;
+    long aux = x;
     
     do {
       numAlreves *= 10;
       
-      int resto = aux % 10;
+      int resto = (int)(aux % 10);
       
       numAlreves += resto;
       

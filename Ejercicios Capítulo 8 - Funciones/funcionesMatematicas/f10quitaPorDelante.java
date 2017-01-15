@@ -7,18 +7,18 @@ package funcionesMatematicas;
 
 public class f10quitaPorDelante {
   
-  public static int quitaPorDelante(int x, int d) {
+  public static long quitaPorDelante(long x, long d) {
     
     //Volteamos el número
     
-    int numAlreves = 0;
+    long numAlreves = 0;
     
-    int aux = x;
+    long aux = x;
     
     do {
       numAlreves *= 10;
       
-      int resto = aux % 10;
+      int resto = (int)(aux % 10);
       
       numAlreves += resto;
       
@@ -34,14 +34,14 @@ public class f10quitaPorDelante {
     
      //Volvemos a voltear el número
     
-    int numAlreves2 = 0;
+    long numAlreves2 = 0;
     
     aux = numAlreves;
     
     do {
       numAlreves2 *= 10;
       
-      int resto = aux % 10;
+      int resto = (int)(aux % 10);
       
       numAlreves2 += resto;
       

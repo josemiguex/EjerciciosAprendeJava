@@ -7,7 +7,7 @@ package funcionesMatematicas;
 
 public class f09quitaPorDetras {
   
-  public static int quitaPorDetras(int x, int d) {
+  public static long quitaPorDetras(long x, long d) {
     
     do {
       x /= 10;

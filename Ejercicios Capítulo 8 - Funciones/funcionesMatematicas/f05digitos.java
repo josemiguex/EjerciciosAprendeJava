@@ -8,7 +8,7 @@ package funcionesMatematicas;
 
 public class f05digitos {
   
-  public static int digitos(int x, int c) {
+  public static long digitos(long x, int c) {
     
     
     do {
