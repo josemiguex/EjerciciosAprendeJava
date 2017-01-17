@@ -8,6 +8,14 @@ import funcionesMatematicas.f03siguientePrimo;
 import funcionesMatematicas.f04potencia;
 import funcionesMatematicas.f05digitos;
 import funcionesMatematicas.f06voltea;
+import funcionesMatematicas.f07digitoN;
+import funcionesMatematicas.f08posicionDeDigito;
+import funcionesMatematicas.f09quitaPorDetras;
+import funcionesMatematicas.f10quitaPorDelante;
+import funcionesMatematicas.f11pegaPorDetras;
+import funcionesMatematicas.f12pegaPorDelante;
+import funcionesMatematicas.f13trozoDeNumero;
+import funcionesMatematicas.f14juntaNumeros;
 
 public class Ejercicios1a14 {
   public static void main (String[] args) {
@@ -39,7 +47,7 @@ public class Ejercicios1a14 {
     
     // potencia /////////////////////////////////
     
-    System.out.println("2^10 = " + funcionesMatematicas.f04potencia.potencia(2, -3));
+    System.out.println("2^10 = " + funcionesMatematicas.f04potencia.potencia(2, 10));
     System.out.println("5^(-3) = " + funcionesMatematicas.f04potencia.potencia(5, -3));
     System.out.println("10^6 = " + funcionesMatematicas.f04potencia.potencia(10, 6));
     

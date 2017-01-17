@@ -11,12 +11,12 @@ package funcionesMatematicas;
 
 public class f07digitoN {
   
-  public static long digitoN(long x, int d, int c) {
-    
+  public static long digitoN(long x, int d) {
+    int c;
     // Primero volteamos el número
     
     if (x < 0) {
-      x = -digitoN(-x, 0, 0);
+      x = -digitoN(-x, 0);
     }
     
     long numAlreves = 0;

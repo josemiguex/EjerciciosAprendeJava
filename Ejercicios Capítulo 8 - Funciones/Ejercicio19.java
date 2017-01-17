@@ -55,12 +55,12 @@ public class Ejercicio19 {
       case 6:
         System.out.print("Escriba un número: ");
         long d3 = Integer.parseInt(System.console().readLine());
-        System.out.print("En octal valdrá " + binarioAHexadecimal(decimalAbinario(d3)));
+        System.out.print("En HEXA valdrá " + binarioAHexadecimal(decimalAbinario(d3)));
         break;
       case 7:
         System.out.print("Escriba un número: ");
         String h = System.console().readLine();
-        System.out.print("En decimal valdrá " + Long.toString(binarioAdecimal(hexadecimalABinario(h))));
+        System.out.print("En decimal valdrá " + binarioAdecimal(hexadecimalABinario(h)));
         break;
       case 8:
         System.out.print("Escriba un número: ");
@@ -74,18 +74,18 @@ public class Ejercicio19 {
         break;
       case 10:
         System.out.print("Escriba un número: ");
-        String o = System.console().readLine();
-        System.out.print("En binario valdrá " + Long.toString(octalABinario(o)));
+        long o = Long.parseLong(System.console().readLine());
+        System.out.print("En binario valdrá " + octalABinario(o));
         break;
       case 11:
         System.out.print("Escriba un número: ");
-        String o2 = System.console().readLine();
-        System.out.print("En decimal valdrá " + Long.toString(binarioADecimal(octalABinario(o2))));
+        long o2 = Long.parseLong(System.console().readLine());
+        System.out.print("En decimal valdrá " + binarioAdecimal(octalABinario(o2)));
         break;
       case 12:
         System.out.print("Escriba un número: ");
-        String o3 = System.console().readLine();
-        System.out.print("En hexadecimal valdrá " + binarioAHexadecimal(octalABinario(numeroIntroducido)));
+        long o3 = Long.parseLong(System.console().readLine());
+        System.out.print("En hexadecimal valdrá " + binarioAHexadecimal(octalABinario(o3)));
         break;
       }
   }
