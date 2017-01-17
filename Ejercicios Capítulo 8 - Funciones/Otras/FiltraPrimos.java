@@ -6,7 +6,7 @@ public class FiltraPrimos {
    * en otro array que se pasa como parámetro. Obviamente el tamaño del array
    * que se devuelve será menor o igual al que se pasa como
    * parámetro.
-   * @param binario            número entero en binario
+   * @param  x[]               array del que se quiere filtrar los primos
    * @return filtraPrimosArray devuelve un array con sólo primos
    */
    
@@ -37,10 +37,17 @@ public class FiltraPrimos {
       
     }
     
-    int[] filtraPrimosArray = new int[j];
+    int[] filtraPrimosArray;
     
-    for (i = 0; i < filtraPrimosArray.length; i++) {
-      filtraPrimosArray[i] = filtraPrimosAux[i];
+    if (j > 0) {
+      
+      filtraPrimosArray = new int[j];
+      for (i = 0; i < filtraPrimosArray.length; i++) {
+        filtraPrimosArray[i] = filtraPrimosAux[i];
+      }
+    } else {
+      filtraPrimosArray = new int[1];
+      filtraPrimosArray[0] = -1;
     }
     
     return (filtraPrimosArray);
