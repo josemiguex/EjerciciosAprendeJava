@@ -6,8 +6,8 @@ public class FiltraPrimos {
    * en otro array que se pasa como parámetro. Obviamente el tamaño del array
    * que se devuelve será menor o igual al que se pasa como
    * parámetro.
-   * @param binario número entero en binario
-   * @return        número inicial pasado a decimal
+   * @param binario            número entero en binario
+   * @return filtraPrimosArray devuelve un array con sólo primos
    */
    
    

@@ -7,8 +7,8 @@ package Otras;
    * para comprobar que funciona bien. Desde la función no se debe mostrar nada
    * por pantalla, solo se debe usar print desde el programa principal.
    * 
-   * @param binario número entero en binario
-   * @return        número inicial pasado a decimal
+   * @param n       Número a pasar a palotes
+   * @return        Cadena de caracteres de palotes equivalente al número pasado como parámetro
    */
    
 public class ConvierteEnPalotes {
