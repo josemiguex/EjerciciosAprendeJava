@@ -8,7 +8,7 @@ public class Ejercicio38 {
     
     int[] array = {121, 234, 2001, 2002, 876};
     
-    int[] filtraCapicuas = Otras.FiltraCapicuas.filtraCapicuas(array);
+    int[] filtraCapicuas = arrays.FiltraCapicuas.filtraCapicuas(array);
     
     for (int i = 0; i < filtraCapicuas.length; i++) {
       System.out.print(filtraCapicuas[i] + " ");

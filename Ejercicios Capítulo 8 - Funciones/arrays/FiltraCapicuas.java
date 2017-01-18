@@ -1,4 +1,4 @@
-package Otras;
+package arrays;
 public class FiltraCapicuas {
   
   /**

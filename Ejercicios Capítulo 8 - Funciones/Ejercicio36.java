@@ -8,7 +8,7 @@ public class Ejercicio36 {
     
     int[] array = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
     
-    int[] soloPrimos = Otras.FiltraPrimos.filtraPrimos(array);
+    int[] soloPrimos = arrays.FiltraPrimos.filtraPrimos(array);
     
     for (int i = 0; i < soloPrimos.length; i++) {
       System.out.print(soloPrimos[i] + " ");
