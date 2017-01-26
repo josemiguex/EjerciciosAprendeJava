@@ -170,6 +170,7 @@ public class bidimensionales {
      } else {
        return false;
      }
+     //return (minimoArrayInt(filaArrayIntBi(x),f) == x[f][c]) && (maximoArrayInt(columnaArrayIntBi(x,c)) == x[f][c]);
    }
    
    /**
@@ -193,26 +194,27 @@ public class bidimensionales {
    
    public static void diagonal(int[][] arrayBi, int fila, int columna, String direccion) {
     
-    int elementos = 0, i, j;
-    int[] diagonalAux = new int [1000];
-    
-    for (i = 0; i < arrayBi.length; i++) {
-      for (j = 0; j < arrayBi[0].length; j++) {
-        if ( (((columna - j) == (fila - i)) && (direccion.equals("nose")))
-          || (((columna - j) == (i - fila)) && (direccion.equals("neso"))) ) {
-          diagonalAux[elementos++] = arrayBi[i][j];
+      int elementos = 0, i, j;
+      int[] diagonalAux = new int [1000];
+      
+      for (i = 0; i < arrayBi.length; i++) {
+        for (j = 0; j < arrayBi[0].length; j++) {
+          if ( (((columna - j) == (fila - i)) && (direccion.equals("nose")))
+            || (((columna - j) == (i - fila)) && (direccion.equals("neso"))) ) {
+            diagonalAux[elementos++] = arrayBi[i][j];
+          }
         }
       }
-    }
-            
-    int[] diagonal = new int[elementos];
-    for (j = 0; j < elementos; j++) {
-      diagonal[j] = diagonalAux[j];
-    }
-      
-     for (i = 0; i < diagonal.length; i++) {
-       System.out.print(diagonal[i] + " ");
-     }
+              
+      int[] diagonal = new int[elementos];
+      for (j = 0; j < elementos; j++) {
+        diagonal[j] = diagonalAux[j];
+      }
+        
+       for (i = 0; i < diagonal.length; i++) {
+         System.out.print(diagonal[i] + " ");
+       }
+     
    }
    
 }

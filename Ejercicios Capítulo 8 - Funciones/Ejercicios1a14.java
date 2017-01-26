@@ -55,15 +55,15 @@ public class Ejercicios1a14 {
     
     int contador = 0;
     
-    System.out.println("El número 0 tiene " + funcionesMatematicas.f05digitos.digitos(0, contador) + " dígito/s.");
+    System.out.println("El número 0 tiene " + funcionesMatematicas.f05digitos.digitos(0) + " dígito/s.");
     
     contador = 0;
 
-    System.out.println("El número 7 tiene " + funcionesMatematicas.f05digitos.digitos(7, contador) + " dígito/s.");
+    System.out.println("El número 7 tiene " + funcionesMatematicas.f05digitos.digitos(7) + " dígito/s.");
     
     contador = 0;
     
-    System.out.println("El número 674893123 tiene " + funcionesMatematicas.f05digitos.digitos(674893123, contador) + " dígito/s.");
+    System.out.println("El número 674893123 tiene " + funcionesMatematicas.f05digitos.digitos(674893123) + " dígito/s.");
     
     // voltea ///////////////////////////////////
     
@@ -73,8 +73,8 @@ public class Ejercicios1a14 {
     
     // digitoN /////////////////////////////////
     int d = 0;
-    System.out.println("El dígito que está en la posición 3 del número 55545 es el " + funcionesMatematicas.f07digitoN.digitoN(55545,3,d));
-    System.out.println("El dígito que está en la posición 5 del número 4353453 es el " + funcionesMatematicas.f07digitoN.digitoN(4353453,5,d));
+    System.out.println("El dígito que está en la posición 3 del número 55545 es el " + funcionesMatematicas.f07digitoN.digitoN(55545,3));
+    System.out.println("El dígito que está en la posición 5 del número 4353453 es el " + funcionesMatematicas.f07digitoN.digitoN(4353453,5));
     
     // posicionDeDigito ////////////////////////
     

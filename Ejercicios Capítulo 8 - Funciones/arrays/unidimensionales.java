@@ -205,7 +205,7 @@ public class unidimensionales {
     
     for (int i = 0; i < (array.length - n); i++) {
       
-      arrayRotado[i] = array[i + n];
+      arrayRotado[i] = arrayAux[i + n];
     }
     
     int j = 0;

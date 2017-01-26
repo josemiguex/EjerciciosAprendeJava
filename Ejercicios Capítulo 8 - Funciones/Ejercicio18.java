@@ -24,7 +24,6 @@ public class Ejercicio18 {
       int resto = b % 2;
       
       binario = (int)(binario + resto * Math.pow(10,exp));
-      System.out.println(binario);
       exp++;
       b /= 2;
       

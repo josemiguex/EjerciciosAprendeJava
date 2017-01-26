@@ -57,5 +57,6 @@ public class Ejercicios29a34 {
     
     
     arrays.bidimensionales.diagonal(array2, 2, 3, "nose");
+
   }
 }

@@ -1,0 +1,11 @@
+/* Ejercicio 1 - Conceptos de POO
+ * Hecho por Jose Miguel Martín Hidalgo
+ */
+
+Posibles atributos:
+nombrePiloto
+altura
+premios
+puesto
+
+Posibles instancias: Fernando Alonso, 1.70, 4, 2
