@@ -1,0 +1,5 @@
+* ¿Cuáles serían los atributos de la clase Vivienda ? ¿Qué subclases se te ocurren?
+
+Atributos: precio, personas, habitaciones, tipo (colectiva o unifamiliar)
+
+Subclases: casa, piso, ático, hotel
