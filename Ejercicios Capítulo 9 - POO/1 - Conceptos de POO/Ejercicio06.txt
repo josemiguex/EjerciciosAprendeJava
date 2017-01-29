@@ -1,0 +1,6 @@
+* Lista los atributos de la clase Alumno ¿Sería nombre uno de los atributos de la
+* clase? Razona tu respuesta.
+
+Clases: edad, sexo, altura, 
+
+Nombre no sería un atributo ya que el nombre se usa para crear las instancias
