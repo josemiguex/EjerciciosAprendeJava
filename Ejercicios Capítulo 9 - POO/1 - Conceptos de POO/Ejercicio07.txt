@@ -1,0 +1,7 @@
+* ¿Cuáles serían los atributos de la clase Ventana (de ordenador)? ¿cuáles serían
+* los métodos? Piensa en las propiedades y en el comportamiento de una
+* ventana de cualquier programa.
+
+Atributos: tamaño, apariencia, posición, visibilidad (minimizada o maximizada), profundidad (por encima o por debajo de otras ventanas)
+
+Métodos: cerrar, maximizar, minimizar, redimensionar
