@@ -3,4 +3,4 @@
 
 Clases: edad, sexo, altura
 
-Nombre no sería un atributo ya que el nombre se usa para crear las instancias
+Nombre si sería un atributo

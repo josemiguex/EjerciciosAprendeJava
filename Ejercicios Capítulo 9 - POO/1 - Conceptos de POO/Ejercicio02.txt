@@ -1,9 +1,9 @@
 * Ejercicio 2 - Conceptos de POO
 * Hecho por Jose Miguel Martín Hidalgo
 
-persona: javier, paula
-animal: gato instancias: tom, garfield, silvestre
-animal: perro, instancias: snoopy, goofy, Pluto, milu, ayudante_de_santa_claus, laika, 
-animal: caballo, instancias: bucefalo, rocinante
-animal: pato_lucas
-mineral: cuarzo, pirita
+clase persona: instancias javier, paula
+clase animal: subclase gato instancias: tom, garfield, silvestre
+clase animal: subclase perro, instancias: snoopy, goofy, pluto, milu, ayudante_de_santa_claus, laika, 
+clase animal: subclase caballo, instancias: bucefalo, rocinante, pegaso
+clase animal: instancia pato_lucas
+clase mineral: instancias o subclases cuarzo, pirita

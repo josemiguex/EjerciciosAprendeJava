@@ -3,9 +3,11 @@
  */
 
 Posibles atributos:
-nombrePiloto
+posición
 altura
 premios
 puesto
+sexo
+carrerasGanadas
 
-Posibles instancias: Fernando Alonso, 1.70, 4, 2
+Posibles instancias: Fernando Alonso, Schumacker...
