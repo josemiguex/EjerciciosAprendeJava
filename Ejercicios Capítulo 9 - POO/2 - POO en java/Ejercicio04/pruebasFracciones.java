@@ -6,10 +6,10 @@
 public class pruebasFracciones {
   public static void main (String[] args) {
     
-    Fraccion fraccion1 = new Fraccion(24, 120);
+    Fraccion fraccion1 = new Fraccion(6, 18);
     Fraccion fraccion2 = new Fraccion(2, 3);
 
-    System.out.println("Muestro la fracción");
+    System.out.println("Muestro fraccion1");
     fraccion1.mostrar();
     
     System.out.println("Invierto la fracción y la vuelvo a mostrar");
